@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>동백꽃</title>
+	<link  href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700,900&display=sw" 
+	rel="stylesheet" >
+	<style >
+		html{font-family: 'Noto Sans KR', sans-serif}
+		h1{font-weight: 900; color:#222 line-height: 1.3; text-align: center;}
+		p{text-align: center; width: 1500px; font-weight:700; font-size:11.5px; word-spacing: -1px; word-break: keep-all; color: #888; line-height: 2;}
+		.aa{color: white; background: red;}
+		.bb{color: black; background: white;}
+		.cc{color: white; background: blue;}
+		body{background:url(bg.jpg); background-position: center;}
+		.rain{width:5px; height: 5px; background: #000; position: absolute; bottom: 0; animation:rr 0s infinite ease-in;}
+		@keyframes rr{ 
+		from{bottom: 1000px;} 
+		to{bottom: 0px;}
+	}
+	</style>
+</head>
+<body>
+	<br><br>
+	<h1>동백꽃 필 무렵,</h1>
+	<br>
+		<p>
+			<span class="aa">
+			동백꽃의 꽃말은 '그 누구보다도 그대를 사랑합니다.'이다. <br>
+			특히 붉은 동백꽃은 '당신은 내 마음에 불꽃',<br> 
+			'당신은 누구보다도 아름답다.'라는 의미를 가진다. 
+		    </span>			
+		</p>
+
+		<br>
+
+		<p>
+			<span class="cc">
+				동백나무의 특징은 나무가 회갈색이며 꽃잎이 미끈하다.<br>
+                원산지는 한국, 일본, 중국등등.<br>
+                꽃은 장미를 연상케 하도록 생겼다.<br>
+                꽃이 피는 시기는 3~4월쯤, 봄에 핀다.
+			</span>
+		</p>
+
+		<br>
+
+		<p>
+			<span class="bb">
+		    동백 꽃과 관련된 일화는 다음과 같다. <br><br>
+			옛날, 어느 마을에, 금슬이 좋은 한 쌍의 부부가 살고 있었다. <br>
+			하루는 남편이 볼일이 있어 육지로 가게 되었다. <br>
+			시간이 지나면서 남편이 돌아온다던 날이 다가왔다.<br>
+			그러나 남편이 약속한 날이 지나가고 또 지나가도 배는 오지 않았다.<br>
+			달이 가고 해가 바뀌어도 남편은 돌아올 줄을 몰랐다.<br>
+			아내의 간절한 기다림은 어느덧 가슴에 병이 되어 응어리 져 있었다.<br>
+			그러다가 마침내 아내는 자리에 드러 눕게 되었고, <br>
+			이웃 사람들의 정성어린 간병도 아랑곳 없이 끝내 숨을 거두고 말았다.<br>
+			숨을 거두면서, <br><br>
+
+			"내가 죽거든 남편이 돌아오는<br>
+			배가 보이는 곳에 묻어 주세요" <br><br>
+			하고는 고요히 눈을 감았다.<br>
+			마을 사람들도 하도 가여워 죽은 여인의 넋이라도 위로해 주려고<br>
+			바닷가 양지바른 곳에 묻어 주었다. <br>
+		    장사를 치르고 돌아오니 그 집 앞뜰에 있는 호박나무에 <br>
+			수없이 많은 흑비둘기 떼가 날아 들어 우는데<br><br>
+
+			"아이 답답 열흘만 더 기다리지. 넉넉잡아 열흘이면 온다.<br>
+			남편이 온다. 죽은 사람 불쌍해라. 원수야. 원수야.<br>
+			열흘만 더 일찍 오지 넉넉 잡아서..."<br><br>
+
+			라고 하는 것처럼 울어대어서 마을 사람들은 기이하다고 생각하였다.<br>
+			그날 저녁에 육지에서 남편이 배를 타고 돌아왔다.<br>
+			남편은 마을 사람들로부터 아내의 죽음을 듣고는 무덤으로 달려가 목놓아 울었다.<br><br>
+
+			"왜 죽었나. 1년도 못참더냐. 열흘만 참았으면 백년해로 하는 것을..<br>
+			원수로다, 원수로다. 저 한바다.<br> 
+			원수로다, 원수로다. 몸이야 갈지라도 넋이야 두고가소.<br>
+		    불쌍하고 가련하지" 하고 통곡하였다.<br><br>
+
+			남편은 아내 생각에 매일같이 무덤에 와서는 한번씩 슬프게 울고는 돌아가고 했는데,<br> 
+			하루는 돌아서려니 아내 무덤 위에 전에 보지 못하던 조그마한 나무가 나 있고<br>
+			그 나뭇가지에는 빨간 꽃이 피어 있었다.<br>
+			이 꽃은 눈이 하얗게 내리는 겨울에도 얼지 않고 피어 있었다.<br>
+			이 꽃이 지금 울릉도 전역에 분포되어 있는 동백꽃이라고 한다.<br>
+
+
+		    </span>
+		</p>
+        <br><br><br>
+        <div class="rain" id="rrr"></div>
+     <script >
+     	for(var i=0; i<154; i++){
+     	var tt = rrr.cloneNode(true);
+     	tt.id = i;
+     	tt.style.animationDelay=i*0.2 +"s";
+     	tt.style.left = i*10 +"px"; 
+     	//최대 200 최소 소숫점 얼마?//
+     	tt.style.animationDuration = Math.random() + "s";
+     	tt.style.height=Math.random()*20 + "px";
+     	tt.style.width= Math.random()*20 + "px";
+     	tt.style.background = rgbmake();
+     	document.body.appendChild(tt);
+     }
+     //rgb(32,45,64)
+     function rgbmake(){
+     var a = Math.random()*20;
+     var b = Math.random()*255;
+     var c = Math.random()*255;
+
+     var d = "rgb("+a+","+b+","+c+")";
+     return d;
+ }
+</script>
+
+		
+
+</body>
+</html>
